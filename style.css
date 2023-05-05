@@ -1,9 +1,7 @@
+@media screen and (max-width: 1920px) {
+
 body {
     background-color: black;
-}
-
-.container {
-
 }
 
 .collection {
@@ -126,4 +124,134 @@ p {
 
 a {
     text-decoration: none;
+}
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: black;
+    }
+    
+    .collection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        margin: 30px;
+    }
+    
+    img {
+        width: 50%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 90px;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: white;
+    }
+    
+    h1 {
+        font-family: 'Anton';
+        font-size: 3em;
+        font-weight: 200;
+        color: white;
+        margin: 0;
+    }
+    
+    h2 {
+        font-family: 'Koulen';
+        font-size: 1.5em;
+        color: rgb(212, 255, 40);
+        font-weight: 100;
+        margin: 0
+    }
+    
+    h3 {
+        font-family: 'Lacquer';
+        color: rgb(212, 255, 40);
+        font-size: 2em;
+    }
+    
+    p {
+        font-family: 'Koulen';
+        color: white;
+        font-size: 1.5em;
+        margin: 0;
+        font-weight: 30;
+    }
+    
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .subttl {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .brooklyn99 {
+        filter: grayscale(100%);
+    }
+    
+    .brooklyn99:hover {
+        filter: none;
+    }
+    
+    .tdltl {
+        filter: grayscale(100%);
+    }
+    
+    .tdltl:hover {
+        filter: none;
+    }
+    
+    .babydriver {
+        filter: grayscale(100%);
+    }
+    
+    .babydriver:hover {
+        filter: none;
+    }
+    
+    .villains {
+        filter: grayscale(100%);
+    }
+    
+    .villains:hover {
+        filter: none;
+    }
+    
+    .nessie {
+        filter: grayscale(100%);
+    }
+    
+    .nessie:hover {
+        filter: none;
+    }
+    
+    .collection {
+        filter: grayscale(100%);
+    }
+    
+    .collection:hover {
+        filter: none;
+    }
+    
+    .pools {
+        filter: grayscale(100%);
+    }
+    
+    .pools:hover {
+        filter: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
 }
